@@ -486,3 +486,15 @@ html, body {
   height: auto;
   display: block;
 }
+
+.footer-icons, .right-social-icons {
+  overflow: hidden;
+}
+.footer-icons img, .right-social-icons img {
+  width: 24px !important;
+  height: 24px !important;
+  max-width: 100% !important;
+  max-height: 32px !important;
+  box-sizing: border-box !important;
+  display: block !important;
+}
